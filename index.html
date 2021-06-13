@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pan Update Form</title>
+    <style>
+        table,
+        th,
+        tr,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        span {
+            color: red;
+        }
+        *{
+            margin: 3px 1px 3px 1px
+        }
+    </style>
+</head>
+
+<body>
+    <div style="background-color: rgb(252, 236, 205);">
+        <div style="background-color: rgb(218, 69, 69); color:white">
+            <h5 style="text-align:center">Request for New Pan Card or/And changes or Correction in Pan Card</h5>
+            <p style="text-align:center; font-style: italic;">Fields with marked with <span>*</span>(asterik) are
+                manadatory</p>
+        </div>
+        <div style="font-weight: bold;">
+            <table style="width:100%">
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display:inline">
+                            <span>*</span>Whether citizen of India
+                        <div style="display:inline">
+                            <label for="yes" style="padding-left: 60px;">Yes</label><input type="radio" id="yes">
+                            <label for="no" style="padding-left: 10px;">NO</label><input type="radio" id="no">
+                        </div>
+                        </p>
+                    </td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display:inline">
+                        <span>*</span>Permanaent Account Number(PAN)
+                    <input type="text">
+                    </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="Text-align:center"><input type="checkbox"></td>
+                    <td colspan='2'>
+                        <p style="display:inline">
+                        <span>*</span>1. Name
+                    </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display:inline">Title
+                            <div style="display:inline">
+                                <label for="Shri/Mr" style="padding-left: 60px;">Shri/Mr</label><input type="radio" id="Shri/Mr">
+                                <label for="Smt/Mrs" style="padding-left: 10px;">Smt/Mrs</label><input type="radio" id="Smt/Mrs">
+                                <label for="Kumari/Ms" style="padding-left: 10px;">Kumari/Ms</label><input type="radio" id="Kumari/Ms">
+                            </div> 
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display:inline">
+                                <label for="Kumari/Ms" style="padding-left: 70px;">Last name/Sur Name</label>
+                                <label for="Shri/Mr" style="padding-left: 60px;">First Name</label>
+                                <label for="Smt/Mrs" style="padding-left: 70px;">Middle Name</label><br>
+                                    <input type="text" id="Shri/Mr">
+                                    <input type="text" id="Smt/Mrs">
+                                    <input type="text" id="Kumari/Ms">
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display:inline">
+                                <span>*</span>
+                                Name as you would like it to be printed on the card
+                                <span style="color:blue">(Prefix like Shri,Smt,Kumari,Late,Dr,CA,Mr,Ms,Mrs,M/s,Alias etc are not allowed.)</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2"><textarea></textarea>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2">
+                        <p style="display:inline">
+                            Details of Parents.
+                            <span style="color:blue">(Prefix like Shri,Smt,Kumari,Late,Dr,CA,Mr,Ms,Mrs,M/s,Alias etc are not allowed.)</span>
+                    </p> 
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Whether mother is single parent and you wish to apply for PAN by furnishing the name of the mother only
+                    <td colspan="3">
+                        <label for="yes">Yes</label><input type="radio" id="yes">
+                        <label for="no">NO</label><input type="radio" id="no">
+                    </td>
+                
+            </td>
+                </tr>
+
+            </table>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
